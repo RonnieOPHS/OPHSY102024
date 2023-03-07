@@ -1,0 +1,18 @@
+print("welcome to MAD-LIB")
+print("Enter answers for the instructions below")
+print("")
+
+adjective1 = input("Enter an adjective e.g. small/broken/smelly >>> ")
+country1 = input("Enter a country >>> ")
+year1 = input("Enter a year")
+nationality1 = input("Enter an nationality >>> ")
+person1 = input("Enter an person >>> ")
+noun1 = input ("Enter a noun e.g. person/ place/ thing >>> ")
+food1 = input("Enter a food >>> ")
+nationality2 = input("Enter a nationality >>> ")
+
+print("")
+print("Here is your MAD-LIB")
+print("")
+print("The" ,adjective1, nationality1, person1, "invented" ,food1, "in his home.")
+print("The dish was invented in" ,year1, "and it shocked the" ,nationality2, "in their little" ,noun1, "in" ,country1, "land.")
