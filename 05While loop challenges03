@@ -1,0 +1,10 @@
+num1 = int(input("Enter a number"))
+total = num1
+answer =   answer = str(input("Do you want to enter another number,y or n ")).upper()
+
+while answer == "Y":
+  num2 = int(input("Enter another number"))
+  total = total + num2
+  answer = str(input("Do you want to enter another number,y or n ")).upper()
+  
+print("The total is", total)
