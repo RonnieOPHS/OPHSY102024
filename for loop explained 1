@@ -1,2 +1,0 @@
-for singleletter in "paris":
-  print (singleletter)
