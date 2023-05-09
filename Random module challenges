@@ -1,0 +1,17 @@
+Challenge 1
+
+import random
+
+number = random.randint(0,100)
+print(number)
+
+Challenge 2
+
+import random
+
+colours = ["Red", "Blue", "Yellow", "Green", "Purple"]
+selected = random.choice(colours)
+print(selected)
+
+Challenge 3 
+
