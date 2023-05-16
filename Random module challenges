@@ -30,4 +30,19 @@ else:
   
   Challenge 4 
   
+  import random
+
+num = random.randint(1,5)
+choice = int(input("Choose a number between 1 and 5"))
+
+if choice == num:
+  print("Well done")
   
+elif choice < num:
+    print("Too low")
+    
+elif choice > num:
+      print("Too high")
+
+print("Try again")
+uncomplete
