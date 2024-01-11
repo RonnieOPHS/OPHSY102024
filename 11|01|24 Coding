@@ -1,0 +1,58 @@
+Code 1
+
+number1 = int(input("Enter a whole number"))
+number2 = int(input("Enter a whole number"))
+number3 = int(input("Enter a whole number"))
+
+answer = (number1 + number2) *number3
+print(answer)
+
+Code 2
+
+num = int(input("Enter a number under 20"))
+
+if num >=20:
+  print("Too high")
+  
+else:
+  print("Thank you")
+
+Code 3
+
+  name = str(input("Enter your name"))
+age = int(input("How old are you"))
+
+newAge = age + 1
+
+print(name ,"on your next birthday you will be" , newAge)
+
+Code 4
+
+bill = float(input("What is the total of the bill"))
+person = int(input("How many people are there"))
+
+each = bill/person
+
+print("Each person must pay" ,each)
+
+Code 5
+
+colour = str(input("What is your favourite colour"))
+
+if colour == "red" or colour == "RED" or colour == "Red":
+  print("I like red too")
+else:
+  print("I dont like" ,colour ,"I prefer red")
+
+  Code 6
+
+  number = int(input("Enter number 1, 2 or 3"))
+
+if number == 1:
+  print("Thank you")
+elif number == 2:
+  print("Well done")
+elif number == 3:
+  print("Correct")
+else:
+  print("Error message")
